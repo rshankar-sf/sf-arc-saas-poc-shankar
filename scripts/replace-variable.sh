@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define new variable values
-NEW_AWS_REGION="ap-south-1"
+NEW_AWS_REGION="us-east-1"
 NEW_NAMESPACE="sf-arc-saas"
 NEW_ENVIRONMENT="poc"
 DOMAIN="shankarsfarcsaaspoc.co.in"

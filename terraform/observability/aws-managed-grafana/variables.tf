@@ -4,7 +4,7 @@
 variable "region" {
   description = "AWS Region"
   type        = string
-  default     = "ap-south-1"
+  default     = "us-east-1"
 }
 
 variable "environment" {
@@ -47,5 +47,5 @@ variable "workspace_api_keys_ttl" {
 variable "domain_name" {
   description = "Domain Name "
   type        = string
-  default     = "arc-saas.net"
+  default     = "shankarsfarcsaaspoc.co.in"
 }

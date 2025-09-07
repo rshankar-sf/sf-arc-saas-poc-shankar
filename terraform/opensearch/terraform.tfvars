@@ -1,4 +1,4 @@
-region                         = "ap-south-1"
+region                         = "us-east-1"
 environment                    = "poc"
 namespace                      = "sf-arc-saas"
 elasticsearch_version          = "OpenSearch_2.11"

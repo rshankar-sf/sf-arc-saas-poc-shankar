@@ -1,4 +1,4 @@
-region      = "ap-south-1"
+region      = "us-east-1"
 environment = "poc"
 namespace   = "sf-arc-saas"
 domain_name = "shankarsfarcsaaspoc.co.in" // this domain name should be same across all modules

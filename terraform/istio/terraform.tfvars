@@ -1,4 +1,4 @@
-region              = "ap-south-1"
+region              = "us-east-1"
 environment         = "poc"
 namespace           = "sf-arc-saas"
 min_pods            = 1
@@ -6,5 +6,5 @@ max_pods            = 9
 common_name         = "shankarsfarcsaaspoc.co.in" #domain name supplied as common name.
 organization        = "Sourcefuse, Inc."
 alb_ingress_name    = "alb-external-ingress"
-acm_certificate_arn = "arn:aws:acm:ap-south-1:082349043593:certificate/f2b59e6a-54e7-4b66-8860-f66554fa7bd8" # replace ACM ARN
+acm_certificate_arn = "arn:aws:acm:us-east-1:082349043593:certificate/f2b59e6a-54e7-4b66-8860-f66554fa7bd8" # replace ACM ARN
 full_domain_name    = "*.shankarsfarcsaaspoc.co.in"                                   #should always start with wildcard
