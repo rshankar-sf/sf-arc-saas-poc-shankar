@@ -59,5 +59,5 @@ variable "grafana_service_type" {
 variable "domain_name" {
   description = "Domain Name "
   type        = string
-  default     = "arc-saas.net"
+  default     = "shankarsfarcsaaspoc.co.in"
 }
