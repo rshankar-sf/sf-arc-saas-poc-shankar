@@ -6,4 +6,3 @@ instance_count                 = 2
 ebs_volume_size                = 20
 instance_type                  = "t3.medium.elasticsearch"
 create_iam_service_linked_role = true
-
