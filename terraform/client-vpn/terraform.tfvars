@@ -1,5 +1,5 @@
-region            = "us-east-1"
-environment       = ""
-namespace         = ""
-enable_client_vpn = false       // set to true for creating client vpn
-common_name       = "*.abc.com" // use wildcard domain
+region            = "ap-south-1"
+environment       = "poc"
+namespace         = "sf-arc-saas"
+enable_client_vpn = true       // set to true for creating client vpn
+common_name       = "*.shankarsfarcsaaspoc.co.in" // use wildcard domain
