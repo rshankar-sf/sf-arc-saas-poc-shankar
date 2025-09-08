@@ -128,7 +128,7 @@ resource "helm_release" "grafana" {
   chart            = "grafana"
   namespace        = var.grafana_namespace
   create_namespace = true
-  timeout          = 600
+  timeout          = 1200
   version          = var.grafana_helm_release_version
 
   values = [<<VALUES
