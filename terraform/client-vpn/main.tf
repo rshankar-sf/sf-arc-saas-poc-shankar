@@ -107,7 +107,7 @@ module "vpn" {
 
   ## self signed certificate
   create_self_signed_server_cert             = true
-  self_signed_server_cert_server_common_name = "*.arc-saas.net"
+  self_signed_server_cert_server_common_name = "*.shankarsfarcsaaspoc.co.in"
   self_signed_server_cert_organization_name  = var.namespace
   self_signed_server_cert_ca_pem             = module.self_signed_cert_ca.certificate_pem
   self_signed_server_cert_private_ca_key_pem = join("", data.aws_ssm_parameter.ca_key[*].value)
